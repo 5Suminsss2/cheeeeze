@@ -1,0 +1,13 @@
+.layout{
+    background-color: #f9f9f9;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 12px 30px 12px 30px;
+    box-sizing: border-box;
+}
+
+.container{
+    flex: 1;
+    max-width: 1284px;
+}

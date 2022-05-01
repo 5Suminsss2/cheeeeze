@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+    margin-top: 56px;
+    flex: 1;
+}
+
+.contents {
+    width: 100%;
+    flex: 1;
+    margin-left: 72px;
+}

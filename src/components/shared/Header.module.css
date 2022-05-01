@@ -1,0 +1,93 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 56px;
+    padding: 0 16px;
+    top : 0;
+    box-sizing: border-box;
+    
+}
+
+.part1{
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    padding-left: 2rem;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    flex : 0 1 640px;
+    padding: 0 2rem;
+
+}
+
+.part3{
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    padding: 2px 20px;
+    cursor: pointer;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(243, 243, 243);
+    margin-right: 10px;
+}
+.mic-icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(220, 220, 220);
+}
+
+.input {
+    flex: 1;
+    height: 30px;
+    box-sizing: border-box;
+    border:1px solid rgb(220, 220, 220);
+
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .input {
+        display: none;
+    }
+    .mic-icon {
+        background-color: white;
+    }
+    .search-icon{
+        width: 24px;
+        height: 24px;
+        padding: 2px 20px;
+        cursor: pointer;
+        border: 1px none rgb(220, 220, 220);
+        background-color: rgb(255, 255, 255);
+        margin-right: 0;
+    }
+    .part2 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 0 2rem;
+    }
+}

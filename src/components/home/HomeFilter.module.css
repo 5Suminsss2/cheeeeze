@@ -1,0 +1,16 @@
+.black{
+    background-color: rgb(64, 64, 64);
+    color: aliceblue;
+}
+.gray {
+    background-color: rgb(242, 241, 241);
+}
+
+.black,
+.gray {
+    padding: 6px 12px;
+    margin: 12px 12px 12px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(166, 166, 166, 0.3);
+    cursor: pointer;
+}

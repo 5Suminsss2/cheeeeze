@@ -1,0 +1,51 @@
+.contents{
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+
+.thumbnail{
+    width: 246px;
+    height: 137px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+.title{
+    font-size: 18px;
+    color: black;
+}
+
+.userInfo{
+    display: flex;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+}
+
+.videoDetail{
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+    margin-top: 12px;
+}
+
+.channelTitle::after,
+.viewCount::after{
+    content: '•';
+    margin: 0 4px;
+}
+
+.title,
+.videoDetail{
+    display: -webkit-box;
+    overflow: hidden;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

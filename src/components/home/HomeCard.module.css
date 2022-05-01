@@ -1,0 +1,44 @@
+
+.video {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.thumnail {
+    width: 100%;
+    object-fit: fill;
+}
+
+.userInfo{
+    display: flex;
+    margin-top: 12px;
+}
+
+.userThumnail {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.userDetail {
+    margin-left: 12px;
+}
+.title{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+}
+.channelTitle {
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+
+.videoDetail {
+    display: flex;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+
+.count::after{
+    content: '•';
+    margin: 0 4px;
+}
